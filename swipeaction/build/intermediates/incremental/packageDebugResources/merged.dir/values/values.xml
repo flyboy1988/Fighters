@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorInstantDelete">#ff0000</color>
+    <color name="colorPendingDelete">#0011ff</color>
+    <dimen name="swipe_icon_margin">20dp</dimen>
+    <plurals name="deletedItems">
+        <item quantity="one">deleted %1$d item</item>
+        <item quantity="other">deleted %1$d items</item>
+    </plurals>
+    <string name="app_name">Android Swipe Action</string>
+    <string name="deleteUndo">Undo</string>
+</resources>

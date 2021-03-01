@@ -1,0 +1,2 @@
+de/taop/swipeaction/BuildConfig.java
+ de.taop.swipeaction.BuildConfig
