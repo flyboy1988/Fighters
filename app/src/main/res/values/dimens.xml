@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small">@dimen/_4sdp</dimen>
+    <dimen name="x_small">@dimen/_8sdp</dimen>
+    <dimen name="xx_small">@dimen/_12sdp</dimen>
+    <dimen name="medium">@dimen/_16sdp</dimen>
+    <dimen name="x_medium">@dimen/_20sdp</dimen>
+    <dimen name="xx_medium">@dimen/_24sdp</dimen>
+    <dimen name="large">@dimen/_32sdp</dimen>
+    <dimen name="x_large">@dimen/_36sdp</dimen>
+    <dimen name="xx_large">@dimen/_48sdp</dimen>
+    <dimen name="ExtraLarge">@dimen/_64sdp</dimen>
+    <dimen name="divider_height">@dimen/_2sdp</dimen>
+    <dimen name="divider_height_small">@dimen/_1sdp</dimen>
+
+    <dimen name="margin_small">@dimen/_8sdp</dimen>
+    <dimen name="margin_large">@dimen/_16sdp</dimen>
+    <dimen name="margin_x_large">@dimen/_24sdp</dimen>
+    <dimen name="margin_xx_large">@dimen/_32sdp</dimen>
+
+    <dimen name="padding_small">@dimen/_8sdp</dimen>
+    <dimen name="padding_large">@dimen/_16sdp</dimen>
+    <dimen name="padding_x_large">@dimen/_24sdp</dimen>
+    <dimen name="padding_xx_large">@dimen/_32sdp</dimen>
+
+    <!--different radius sizes-->
+    <dimen name="tiny_radius">@dimen/_4sdp</dimen>
+    <dimen name="small_radius">@dimen/_8sdp</dimen>
+    <dimen name="normal_radius">@dimen/_23sdp</dimen>
+    <dimen name="large_radius">@dimen/_46sdp</dimen>
+
+    <!--different textSize sizes-->
+    <!--7.3sp size in design -->
+    <dimen name="xx_small_text">@dimen/_6ssp</dimen>
+    <dimen name="x_small_text">@dimen/_9ssp</dimen>
+    <!--8.7sp size in design -->
+    <dimen name="small_text">@dimen/_11ssp</dimen>
+    <!--9.3sp size in design -->
+    <dimen name="normal_text">@dimen/_12ssp</dimen>
+    <!--10.7sp size in design -->
+    <dimen name="medium_text">@dimen/_14ssp</dimen>
+    <dimen name="big_text">@dimen/_30ssp</dimen>
+
+</resources>

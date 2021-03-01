@@ -38,24 +38,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="@dimen/margin_small"
 
             android:textStyle="bold"
             android:text="@{dataModel.title}"
             android:textColor="#000"
-            android:textSize="20sp" />
+            android:textSize="@dimen/medium_text" />
 
         <TextView
             android:id="@+id/subTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="15dp"
-            android:padding="10dp"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:padding="@dimen/padding_small"
             android:text="@{dataModel.description}"
             android:textColor="#000"
-            android:textSize="15sp" />
+            android:textSize="@dimen/medium_text" />
 
         <FrameLayout
             android:id="@+id/media_container"
@@ -91,12 +91,12 @@
 
              <ImageView
                 android:id="@+id/volume_control"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="@dimen/xx_medium"
+                android:layout_height="@dimen/xx_medium"
                 android:layout_gravity="end|bottom"
-                android:layout_marginEnd="15dp"
-                android:layout_marginStart="15dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginBottom="@dimen/margin_large"
                 android:alpha="0"
                 android:animateLayoutChanges="true"
                 android:scaleType="centerCrop"
