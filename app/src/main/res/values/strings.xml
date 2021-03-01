@@ -2,4 +2,22 @@
     <string name="app_name">Fighters</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="login">Login</string>
+    <string name="sign_out">Sign out</string>
+    <string name="about">about</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="priceFormat">$%1$.2f</string>
+    <array name="actions">
+        <item>Pending Delete</item>
+        <item>Instant Delete</item>
+        <item>Share</item>
+    </array>
+
 </resources>

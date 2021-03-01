@@ -1,2 +1,3 @@
+include ':swipeaction'
 include ':app'
 rootProject.name = "Fighters"

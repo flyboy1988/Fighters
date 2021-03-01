@@ -1,5 +1,4 @@
 package com.flyboy.fighters.model
-
-class FighterList(
+ class FighterList(
     val results: List<Fighter>?
 )

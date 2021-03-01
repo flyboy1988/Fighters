@@ -14,7 +14,11 @@ import kotlinx.coroutines.launch
 
 class FightersViewModel @ViewModelInject constructor(val repository: FightersRepository): ViewModel() {
     private val _fighterList = MutableLiveData<Result<FighterList>?>()
+
+
+
     val fighterList = _fighterList
+
     init {
         fetchFighters()
     }

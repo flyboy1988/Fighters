@@ -16,7 +16,6 @@
         android:id="@+id/ivDetailFighter"
         android:layout_width="273dp"
         android:layout_height="248dp"
-        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +26,6 @@
         android:id="@+id/txtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.296"
@@ -38,7 +36,6 @@
         android:id="@+id/txtNick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         app:layout_constraintBottom_toBottomOf="@+id/txtName"
         app:layout_constraintEnd_toStartOf="@+id/ivDetailFighter"
         app:layout_constraintHorizontal_bias="0.5"
@@ -79,11 +76,11 @@
 
     <Button
         android:id="@+id/btnVideos"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
         android:text="videos"
         app:cornerRadius="10dp"
+        android:layout_margin="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

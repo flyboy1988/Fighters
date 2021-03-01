@@ -10,9 +10,16 @@
         android:name="com.flyboy.fighters.ui.mainFragment.MainFragment"
         android:label="All fighters"
         tools:layout="@layout/fragment_main" >
+        <argument
+            android:name="item"
+
+            app:argType="com.flyboy.fighters.model.Fighter" />
         <action
             android:id="@+id/action_mainFragment_to_detailsFragment"
             app:destination="@id/detailsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
     </fragment>
     <fragment
         android:id="@+id/detailsFragment"
@@ -28,4 +35,14 @@
         android:id="@+id/videoFragment"
         android:name="com.flyboy.fighters.ui.videoFragment.VideoFragment"
         android:label="VideoFragment" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.flyboy.fighters.ui.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <argument
+            android:name="item"
+            app:argType="com.flyboy.fighters.model.Fighters"
+            app:nullable="true" />
+    </fragment>
 </navigation>
