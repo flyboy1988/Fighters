@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+color colorInstantDelete
+color colorPendingDelete
+dimen swipe_icon_margin
+drawable ic_delete_forever_black_24dp
+drawable ic_delete_sweep_black_24dp
+plurals deletedItems
+string app_name
+string deleteUndo

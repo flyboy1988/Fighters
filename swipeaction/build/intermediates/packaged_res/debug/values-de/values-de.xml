@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="deletedItems">
+        <item quantity="one">%1$d Element gelöscht</item>
+        <item quantity="other">%1$d Elemente gelöscht</item>
+    </plurals>
+    <string name="app_name">Android Swipe Action</string>
+    <string name="deleteUndo">Rückgängig</string>
+</resources>
